@@ -9,6 +9,6 @@ Bank3 = int((per_cent['ВТБ']) * (money/100))
 Bank4 = int((per_cent['СБЕР']) * (money/100))
 Deposit = [Bank1, Bank2, Bank3, Bank4]
 print('Все банковские ставки:',(Deposit))
-print('Самая выгодная ставка:',(max(Deposit)))
+print('Максимальная сумма, которую вы можете заработать:',(max(Deposit)))
 print(per_cent.values())
 print(per_cent.keys())
