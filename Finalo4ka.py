@@ -10,5 +10,3 @@ Bank4 = int((per_cent['СБЕР']) * (money/100))
 Deposit = [Bank1, Bank2, Bank3, Bank4]
 print('Все банковские ставки:',(Deposit))
 print('Максимальная сумма, которую вы можете заработать:',(max(Deposit)))
-print(per_cent.values())
-print(per_cent.keys())
